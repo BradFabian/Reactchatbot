@@ -3,7 +3,7 @@ class ActionProvider {
     this.createChatBotMessage = createChatBotMessage;
     this.setState = setStateFunc;
   }
-
+  //new mtehod
   greet() {
     const greetingMessage = this.createChatBotMessage("Hi, friend.");
     this.updateChatbotState(greetingMessage);
